@@ -903,6 +903,7 @@ export default class Carousel extends Component {
     }
 
     _onLayout (event) {
+        return null;
         const { onLayout } = this.props;
 
         // Prevent unneeded actions during the first 'onLayout' (triggered on init)
